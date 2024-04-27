@@ -1,0 +1,536 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+img {
+    vertical-align: bottom;
+}
+button{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
+    padding: 0;
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    padding-top: 48px;
+    position: absolute;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header nav{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 260px;
+}
+
+nav a{
+    margin-right: 24px;
+    text-transform: uppercase;
+}
+
+nav a:last-child{
+    margin-right: 34px;
+}
+
+.basket{
+    width: 20px;
+    height: 20px;
+    margin-right: 28px;
+}
+
+.stick2{
+    margin-right: 34px;
+}
+
+.connection{
+    margin-right: 45px;
+}
+
+.connection img{
+    width: 24px;
+    height: 24px;
+}
+
+.connection p{
+    color: aliceblue;
+}
+
+.ttt{
+    display: flex;
+    align-items: center;
+}
+
+.ttt a{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.connection p{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    width: 154px;
+    margin: 0;
+}
+
+header button{
+    width: 157px;
+    height: 47px;
+    background: #FF7400;
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+.welcome{
+    background-image: url("./img/fone1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.welcome_tx{
+    padding: 322px 322px 0 300px;
+    width: 556px;
+    text-align: center;
+}
+
+.welcome_tx h2{
+    color: #D67E35;
+    font-family: Tinos;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.welcome_tx h1{
+    color: #D67E35;
+    font-family: Tinos;
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.welcome_tx p{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.dle{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 21px;
+}
+
+.welcome_tx button{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    background: #FF7400;
+    width: 137px;
+    height: 47px;
+    text-transform: uppercase;
+}
+
+
+.air_blocks{
+    display: flex;
+    /* padding-top: 35px;
+    padding-bottom: 35px; */
+    margin-top: -120px;
+}
+
+.air_block{
+    background-color: white;
+    width: 350px;
+    height: 280px;
+    text-align: center;
+    padding-top: 48px;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.10);
+}
+
+.air_block:not(:last-child){
+    margin-right: auto;
+}
+
+.air_block h3{
+    color: #2C2C2C;
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.air_block p{
+    color: #656363;
+    text-align: center;
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.air_block img{
+    width: 86px;
+    height: 86px;
+}
+
+.history{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 166px;
+    margin-bottom: 120px;
+}
+
+.history .tx{
+    width: 444px;
+}
+
+.history .tx1{
+    text-align: center;
+}
+
+.history .tx2{
+    display: flex;
+    justify-content: center;
+}
+
+.history .tx_2_0:not(:last-child){
+    margin-right: 40px;
+}
+
+.history h2{
+    color: #000;
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+
+.history .h2{
+    color: #D67E34;
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.tx1 p{
+    color: #656363;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.history h3{
+    color: #BC9060;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.history p{
+    color: #000;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* .zakaz{
+    background-image: url("./img/fone2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.zakaz {
+	background: 
+		linear-gradient(rgba(0, 0, 0, 0.1), rgb(0, 0, 0)), 
+		url("./img/fone2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.zakaz .container{
+    display: flex;
+}
+
+.zakaz .tx{
+    padding-bottom: 104px;
+    padding-top: 80px;
+}
+
+.zakaz h2{
+    color: #D67E34;
+    font-family: Tinos;
+    font-size: 52px;
+    font-weight: 400;
+    margin: 0;
+    width: 601px;
+    margin-bottom: 20px;
+}
+
+.zakaz p{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.zakaz button{
+    color: #FFF;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 700;
+    background: #FF7400;
+    width: 157px;
+    height: 47px;
+    margin: auto;
+    margin-right: 0;
+}
+
+.menu1 h2{
+    color: #000;
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    width: 300px;
+    margin: 132px auto 140px;
+}
+
+.h2{
+    color: #D67E34;
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.pizza{
+    width: 530px;
+    height: 500px;
+    margin-right: 30px;
+}
+
+.pack{
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.bg{
+    margin-right: 30px;
+    width: 170px;
+    height: 140px;
+}
+
+.burger_rub_all{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.burger_rub{
+    display: flex;
+    color: #000;
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+}
+
+.burger_rub h3{
+    margin-right: 7px;
+}
+
+.burger_rub p{
+    margin-left: 10px;
+}
+
+.vector{
+    width: 140px;
+}
+
+
+.menu2{
+    background-image: url("./img/bar.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu2 h2{
+    color: #FFF;
+    text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    font-family: Tinos;
+    font-size: 54px;
+    font-weight: 400;
+    padding-top: 100px;
+    margin-bottom: 140px;
+    text-align: center;
+}
+
+.burger_3{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 230px;
+}
+
+.osn{
+    border-radius: 100%;
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+
+.burger_one h3{
+    color: #000;
+    font-family: Tinos;
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.burger_one .opis{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 400;
+    width: 200px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burger_one button{
+    color: #FFF;
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: 700;
+    width: 220px;
+    height: 50px;
+    background: #D67E34;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: 30px;
+}
+
+.burger_one{
+    background-color: white;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+.feedback{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 104px;
+    padding-bottom: 108px;
+    background: #E5E5E5;
+}
+
+.feedback .mn{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    width: 920px;
+    margin-bottom: 20px;
+}
+
+.feedback .name{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feedback .opis{
+    color: #000;
+    font-family: "Open Sans";
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.card_p img{
+    border-radius: 100%;
+    margin-bottom: 17px;
+}
+
+
+
+
+
+.fone4{
+    /* height: 1004px; */
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
